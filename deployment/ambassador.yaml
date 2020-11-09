@@ -1,0 +1,10 @@
+apiVersion: getambassador.io/v2
+kind:  Mapping
+metadata:
+  namespace: node-service-ms
+  name: waypoint-example-test-master
+  labels:
+    app.kubernetes.io/name: waypoint-example-test-master
+spec:
+  prefix: /waypoint-infratest/
+  service: waypoint-test-app.node-service-ms.svc.cluster.local

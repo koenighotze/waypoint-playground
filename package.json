@@ -1,0 +1,27 @@
+{
+  "name": "waypoint-node-example",
+  "version": "0.0.1",
+  "engines": {
+    "node": "14.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev-start": "nodemon",
+    "start": "node index.js",
+    "test": "node test.js",
+    "lint": "standard",
+    "lint-fix": "standard --fix"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.0.5",
+    "@types/express": "^4.17.8",
+    "got": "^11.3.0",
+    "nodemon": "^2.0.6",
+    "standard": "^16.0.1",
+    "tape": "^4.7.0"
+  }
+}
